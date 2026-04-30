@@ -46,11 +46,15 @@ Use the built-in continuous integration in GitLab.
 
 ## One-click Vercel deploy
 
-Click the button below to import and deploy this project to Vercel in one step (GitLab import):
+Click the link below to import and deploy this project to Vercel in one step:
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://gitlab.com/amir230/test.git)
+**[🚀 Deploy to Vercel](https://vercel.com/new/git/external?repository-url=https://gitlab.com/amir230/test.git)**
 
-After import add environment variables from `.env.example` (AUTH_SECRET, APP_USERS_JSON, BLOB_READ_WRITE_TOKEN, CRON_SECRET).
+After import, Vercel will ask you to add environment variables from `.env.example`:
+- `AUTH_SECRET` - long random string
+- `APP_USERS_JSON` - JSON array of allowed users  
+- `BLOB_READ_WRITE_TOKEN` - from Vercel Blob storage
+- `CRON_SECRET` - optional, for cleanup endpoint protection
 
 
 # Editing this README
