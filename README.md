@@ -44,6 +44,15 @@ Use the built-in continuous integration in GitLab.
 
 ***
 
+## One-click Vercel deploy
+
+Click the button below to import and deploy this project to Vercel in one step (GitLab import):
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://gitlab.com/amir230/test.git)
+
+After import add environment variables from `.env.example` (AUTH_SECRET, APP_USERS_JSON, BLOB_READ_WRITE_TOKEN, CRON_SECRET).
+
+
 # Editing this README
 
 When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
