@@ -56,6 +56,8 @@ After import, Vercel will ask you to add environment variables from `.env.exampl
 - `BLOB_READ_WRITE_TOKEN` - from Vercel Blob storage
 - `CRON_SECRET` - optional, for cleanup endpoint protection
 
+**Note:** Files are automatically deleted once per day (at midnight UTC) via Vercel Cron. This schedule is compatible with the Hobby plan.
+
 
 # Editing this README
 
