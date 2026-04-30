@@ -5,5 +5,11 @@
     { "source": "/mamadjan", "destination": "/mamadjan.html" },
     { "source": "/(.*)", "destination": "/api/index" }
   ],
-  "trailingSlash": false
+  "trailingSlash": false,
+  "crons": [
+    {
+      "path": "/api/cleanup",
+      "schedule": "0 0 * * *"
+    }
+  ]
 }
