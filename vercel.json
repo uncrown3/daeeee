@@ -1,8 +1,9 @@
 {
-  "crons": [
-    {
-      "path": "/api/cleanup",
-      "schedule": "0 0 * * *"
-    }
-  ]
+  "version": 2,
+  "name": "mamadjan",
+  "rewrites": [
+    { "source": "/mamadjan", "destination": "/mamadjan.html" },
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
 }
