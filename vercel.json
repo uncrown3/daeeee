@@ -3,7 +3,7 @@
   "name": "mamadjan",
   "rewrites": [
     { "source": "/mamadjan", "destination": "/mamadjan.html" },
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "source": "/proxy/(.*)", "destination": "/api/index" }
   ],
   "trailingSlash": false,
   "crons": [
